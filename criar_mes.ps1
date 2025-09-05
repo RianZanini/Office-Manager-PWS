@@ -1,3 +1,7 @@
+# Script para criar pastas em um caminho executado
+# Autor: Rian Zanini Lascasas de Gouvêia
+# Data: 05/09/2025
+
 # Pergunta apenas o mês/ano
 $mes = (Read-Host "`nDigite o mes e ano (ex: JANEIRO 2025)").Trim()
 
@@ -25,5 +29,6 @@ foreach ($d in $destinos) {
 }
 
 Write-Host "`nPastas criadas com sucesso!`n"
+
 
 
